@@ -1,5 +1,5 @@
 {
-	"name":"Minami",
+	"name":"Maya",
 	"version":1,
 	"houdini.version":"19.5.569",
 	"symbol":"",
@@ -6195,7 +6195,7 @@
 												},
 												{
 													"symbol":"h.pane.gview.state.view.load_quickprev",
-													"keys":["0","Pad0"
+													"keys":[
 													]
 												},
 												{
@@ -7258,7 +7258,7 @@
 								},
 								{
 									"symbol":"h.pane.gview.toggle_wireshaded",
-									"keys":[
+									"keys":["Pad0"
 									]
 								},
 								{
@@ -11067,6 +11067,34 @@
 							]
 						},
 						{
+							"symbol":"h.pane.bundlelist",
+							"label":"Bundle List",
+							"description":"Custom Menu Operation: Bundle List",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.chanedit",
+							"label":"Animation Editor",
+							"description":"Custom Menu Operation: Animation Editor",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.chanlist",
+							"label":"Channel List",
+							"description":"Custom Menu Operation: Channel List",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.chop_view",
+							"label":"Motion FX View",
+							"description":"Custom Menu Operation: Motion FX View",
+							"keys":[
+							]
+						},
+						{
 							"symbol":"h.pane.clone",
 							"keys":["Alt+Shift+C"
 							]
@@ -11082,8 +11110,29 @@
 							]
 						},
 						{
+							"symbol":"h.pane.context_view",
+							"label":"Context View",
+							"description":"Custom Menu Operation: Context View",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.cop_view",
+							"label":"Composite View",
+							"description":"Custom Menu Operation: Composite View",
+							"keys":[
+							]
+						},
+						{
 							"symbol":"h.pane.copytab",
 							"keys":["Ctrl+T"
+							]
+						},
+						{
+							"symbol":"h.pane.datatree",
+							"label":"Data Tree",
+							"description":"Custom Menu Operation: Data Tree",
+							"keys":[
 							]
 						},
 						{
@@ -11097,7 +11146,35 @@
 							]
 						},
 						{
+							"symbol":"h.pane.engine_sync",
+							"label":"Houdini Engine SessionSync",
+							"description":"Custom Menu Operation: Houdini Engine SessionSync",
+							"keys":[
+							]
+						},
+						{
 							"symbol":"h.pane.fullscreen_panel",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.geosheet",
+							"label":"Geometry Spreadsheet",
+							"description":"Custom Menu Operation: Geometry Spreadsheet",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.helpbrowser",
+							"label":"Help Browser",
+							"description":"Custom Menu Operation: Help Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.ipr_viewer",
+							"label":"Render View",
+							"description":"Custom Menu Operation: Render View",
 							"keys":[
 							]
 						},
@@ -11132,6 +11209,20 @@
 							]
 						},
 						{
+							"symbol":"h.pane.linker",
+							"label":"Light Linker",
+							"description":"Custom Menu Operation: Light Linker",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.mat_palette",
+							"label":"Material Palette",
+							"description":"Custom Menu Operation: Material Palette",
+							"keys":[
+							]
+						},
+						{
 							"symbol":"h.pane.maximize_full",
 							"keys":["Alt+'","Ctrl+B"
 							]
@@ -11152,8 +11243,43 @@
 							]
 						},
 						{
+							"symbol":"h.pane.net",
+							"label":"Network View",
+							"description":"Custom Menu Operation: Network View",
+							"keys":[
+							]
+						},
+						{
 							"symbol":"h.pane.nexttab",
 							"keys":["Ctrl+PageDown","Ctrl+Tab"
+							]
+						},
+						{
+							"symbol":"h.pane.parm",
+							"label":"Parameters",
+							"description":"Custom Menu Operation: Parameters",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.parmsheet",
+							"label":"Parameter Spreadsheet",
+							"description":"Custom Menu Operation: Parameter Spreadsheet",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.perfmon",
+							"label":"Performance Monitor",
+							"description":"Custom Menu Operation: Performance Monitor",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pilist",
+							"label":"Handle List",
+							"description":"Custom Menu Operation: Handle List",
+							"keys":[
 							]
 						},
 						{
@@ -11169,6 +11295,202 @@
 						{
 							"symbol":"h.pane.prevtab",
 							"keys":["Ctrl+PageUp","Ctrl+Shift+Tab"
+							]
+						},
+						{
+							"symbol":"h.pane.projectm",
+							"label":"Orbolt Asset Browser",
+							"description":"Custom Menu Operation: Orbolt Asset Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.python_shell",
+							"label":"Python Shell",
+							"description":"Custom Menu Operation: Python Shell",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel",
+							"label":"Python Panel",
+							"description":"Custom Menu Operation: Python Panel",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::ConstraintBrowser",
+							"label":"Constraint Browser",
+							"description":"Custom Menu Operation: Constraint Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::PackageBrowser",
+							"label":"Package Browser",
+							"description":"Custom Menu Operation: Package Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::SceneGraphDetails",
+							"label":"Scene Graph Details",
+							"description":"Custom Menu Operation: Scene Graph Details",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::SceneGraphLayersPanel",
+							"label":"Scene Graph Layers",
+							"description":"Custom Menu Operation: Scene Graph Layers",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::ViewerHandleBrowser",
+							"label":"Viewer Handle Browser",
+							"description":"Custom Menu Operation: Viewer Handle Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::ViewerStateBrowser",
+							"label":"Viewer State Browser",
+							"description":"Custom Menu Operation: Viewer State Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::contexteditor",
+							"label":"Context Options Editor",
+							"description":"Custom Menu Operation: Context Options Editor",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::labs::diff",
+							"label":"Parameter Diff",
+							"description":"Custom Menu Operation: Parameter Diff",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::layout_asset_gallery",
+							"label":"Layout Asset Gallery",
+							"description":"Custom Menu Operation: Layout Asset Gallery",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::log_viewer",
+							"label":"Log Viewer",
+							"description":"Custom Menu Operation: Log Viewer",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::pdgdatalayerpanel",
+							"label":"PDG Data Layer Panel",
+							"description":"Custom Menu Operation: PDG Data Layer Panel",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::pdgpathmap",
+							"label":"PDG Path Map",
+							"description":"Custom Menu Operation: PDG Path Map",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::pdgservicemenu",
+							"label":"PDG Services",
+							"description":"Custom Menu Operation: PDG Services",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::rig_tree",
+							"label":"Rig Tree",
+							"description":"Custom Menu Operation: Rig Tree",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::sesi_auto_rigs",
+							"label":"Auto Rigs",
+							"description":"Custom Menu Operation: Auto Rigs",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::sesi_character_picker",
+							"label":"Character Picker",
+							"description":"Custom Menu Operation: Character Picker",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::sesi_light_linker",
+							"label":"Light Linker",
+							"description":"Custom Menu Operation: Light Linker",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::sesi_light_mixer",
+							"label":"Light Mixer",
+							"description":"Custom Menu Operation: Light Mixer",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::sesi_pose_library",
+							"label":"Pose Library",
+							"description":"Custom Menu Operation: Pose Library",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::sesi_pose_space_deform",
+							"label":"Pose-space Deform",
+							"description":"Custom Menu Operation: Pose-space Deform",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::sidefx::material_linker",
+							"label":"Material Linker",
+							"description":"Custom Menu Operation: Material Linker",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.pythonpanel::taskgraphtable",
+							"label":"Task Graph Table",
+							"description":"Custom Menu Operation: Task Graph Table",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.rendergallery",
+							"label":"Render Gallery",
+							"description":"Custom Menu Operation: Render Gallery",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.rop_view",
+							"label":"Render Scheduler",
+							"description":"Custom Menu Operation: Render Scheduler",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.scene_view",
+							"label":"Scene View",
+							"description":"Custom Menu Operation: Scene View",
+							"keys":[
 							]
 						},
 						{
@@ -11222,7 +11544,21 @@
 							]
 						},
 						{
+							"symbol":"h.pane.takelist",
+							"label":"Take List",
+							"description":"Custom Menu Operation: Take List",
+							"keys":[
+							]
+						},
+						{
 							"symbol":"h.pane.tearoff",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.textport",
+							"label":"Textport",
+							"description":"Custom Menu Operation: Textport",
 							"keys":[
 							]
 						},
@@ -11337,6 +11673,160 @@
 							]
 						},
 						{
+							"symbol":"h.pane.to_pythonpanel::ConstraintBrowser",
+							"label":"Constraint Browser",
+							"description":"Custom Menu Operation: Constraint Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::PackageBrowser",
+							"label":"Package Browser",
+							"description":"Custom Menu Operation: Package Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::SceneGraphDetails",
+							"label":"Scene Graph Details",
+							"description":"Custom Menu Operation: Scene Graph Details",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::SceneGraphLayersPanel",
+							"label":"Scene Graph Layers",
+							"description":"Custom Menu Operation: Scene Graph Layers",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::ViewerHandleBrowser",
+							"label":"Viewer Handle Browser",
+							"description":"Custom Menu Operation: Viewer Handle Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::ViewerStateBrowser",
+							"label":"Viewer State Browser",
+							"description":"Custom Menu Operation: Viewer State Browser",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::contexteditor",
+							"label":"Context Options Editor",
+							"description":"Custom Menu Operation: Context Options Editor",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::labs::diff",
+							"label":"Parameter Diff",
+							"description":"Custom Menu Operation: Parameter Diff",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::layout_asset_gallery",
+							"label":"Layout Asset Gallery",
+							"description":"Custom Menu Operation: Layout Asset Gallery",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::log_viewer",
+							"label":"Log Viewer",
+							"description":"Custom Menu Operation: Log Viewer",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::pdgdatalayerpanel",
+							"label":"PDG Data Layer Panel",
+							"description":"Custom Menu Operation: PDG Data Layer Panel",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::pdgpathmap",
+							"label":"PDG Path Map",
+							"description":"Custom Menu Operation: PDG Path Map",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::pdgservicemenu",
+							"label":"PDG Services",
+							"description":"Custom Menu Operation: PDG Services",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::rig_tree",
+							"label":"Rig Tree",
+							"description":"Custom Menu Operation: Rig Tree",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::sesi_auto_rigs",
+							"label":"Auto Rigs",
+							"description":"Custom Menu Operation: Auto Rigs",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::sesi_character_picker",
+							"label":"Character Picker",
+							"description":"Custom Menu Operation: Character Picker",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::sesi_light_linker",
+							"label":"Light Linker",
+							"description":"Custom Menu Operation: Light Linker",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::sesi_light_mixer",
+							"label":"Light Mixer",
+							"description":"Custom Menu Operation: Light Mixer",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::sesi_pose_library",
+							"label":"Pose Library",
+							"description":"Custom Menu Operation: Pose Library",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::sesi_pose_space_deform",
+							"label":"Pose-space Deform",
+							"description":"Custom Menu Operation: Pose-space Deform",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::sidefx::material_linker",
+							"label":"Material Linker",
+							"description":"Custom Menu Operation: Material Linker",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.to_pythonpanel::taskgraphtable",
+							"label":"Task Graph Table",
+							"description":"Custom Menu Operation: Task Graph Table",
+							"keys":[
+							]
+						},
+						{
 							"symbol":"h.pane.to_rendergallery",
 							"keys":[
 							]
@@ -11378,6 +11868,13 @@
 						},
 						{
 							"symbol":"h.pane.toggle_pin",
+							"keys":[
+							]
+						},
+						{
+							"symbol":"h.pane.treeview",
+							"label":"Tree View",
+							"description":"Custom Menu Operation: Tree View",
 							"keys":[
 							]
 						},
